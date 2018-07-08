@@ -1,6 +1,6 @@
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/static/jsonfiles/s_graph.json"></script>
-<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function getCookie(name) {
   var cookieValue = null;
@@ -56,10 +56,10 @@ $('#postform').submit(function() {
       timer = setInterval(
         function() {
         row = data.timekeeper;
-        row2 = "aaaaaaaaaaaa";
-        $("#result").append(row2);
         var script = document.createElement('script');
-        script.src = '/static/setting.js';
+        {% load static %}
+        script.src="{{ STATIC_URL }}jsonfiles/s_graph.json";
+        script.src = '{{ STATIC_URL }}setting.js';
         document.body.appendChild(script);
       //setTimeout("location.reload()",1000*5);
       if(row==1){
@@ -71,7 +71,6 @@ $('#postform').submit(function() {
   return false;
 });
 </script>
-
 
 
 <div id="result">
