@@ -42,7 +42,7 @@ SECRET_KEY = 'b-&c(+uy1sb(2(dq_*j3lesou&3c&w6ileqoc+xf7f6w3wzusu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://silly-brahmagupta-1755.arukascloud.io']
+ALLOWED_HOSTS = ['silly-brahmagupta-1755.arukascloud.io']
 
 
 # Application definition
