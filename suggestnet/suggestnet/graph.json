@@ -1,0 +1,114 @@
+{
+    "graph": [],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 0,
+            "target": 5
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 6,
+            "target": 7
+        },
+        {
+            "source": 0,
+            "target": 8
+        },
+        {
+            "source": 8,
+            "target": 9
+        },
+        {
+            "source": 8,
+            "target": 10
+        }
+    ],
+    "nodes": [
+        {
+            "size": 150,
+            "color": "#DA6272",
+            "keyword": "a"
+        },
+        {
+            "size": 60,
+            "color": "#F3C759",
+            "keyword": "ータサイエンティスト 転職",
+            "number": 1
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": "データサイエンティスト 転職 エージェント",
+            "number": 2
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": "データサイエンティスト 転職 資格",
+            "number": 3
+        },
+        {
+            "size": 60,
+            "color": "#C0D860",
+            "keyword": "ータサイエンティスト 勉強",
+            "number": 4
+        },
+        {
+            "size": 60,
+            "color": "#5EC84E",
+            "keyword": "ータサイエンティスト とは",
+            "number": 5
+        },
+        {
+            "size": 60,
+            "color": "#3DB680",
+            "keyword": "ータサイエンティスト アナリスト",
+            "number": 6
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "データサイエンティスト アナリスト 違い",
+            "number": 7
+        },
+        {
+            "size": 60,
+            "color": "#40BFB0",
+            "keyword": "ータサイエンティスト アメリカ",
+            "number": 8
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "データサイエンティスト 大学院 アメリカ",
+            "number": 9
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "アメリカ データサイエンティスト 年収",
+            "number": 10
+        }
+    ],
+    "directed": "false",
+    "multigraph": "false"
+}

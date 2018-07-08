@@ -1,0 +1,16 @@
+{% extends 'admin/base_site.html' %}
+
+{% block content %}
+{% if user.is_superuser or user.is_staff %}
+<form action="" method="POST">
+  <table class="table">
+      <tr>
+        <th>競合分析を行いたいキーワードを入力してください</th>
+        <td>{{ form.text }}</td>
+      </tr>
+  </table>
+  <button type="submit" name=button1 class="btn btn-primary">送信</button>
+  {% csrf_token %}
+</form>
+{% endif %}
+{% endblock %}

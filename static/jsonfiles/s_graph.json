@@ -1,0 +1,1254 @@
+{
+    "graph": [],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 1,
+            "target": 8
+        },
+        {
+            "source": 1,
+            "target": 9
+        },
+        {
+            "source": 1,
+            "target": 10
+        },
+        {
+            "source": 1,
+            "target": 11
+        },
+        {
+            "source": 0,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 13
+        },
+        {
+            "source": 12,
+            "target": 14
+        },
+        {
+            "source": 12,
+            "target": 15
+        },
+        {
+            "source": 12,
+            "target": 16
+        },
+        {
+            "source": 12,
+            "target": 17
+        },
+        {
+            "source": 0,
+            "target": 18
+        },
+        {
+            "source": 18,
+            "target": 19
+        },
+        {
+            "source": 18,
+            "target": 20
+        },
+        {
+            "source": 18,
+            "target": 21
+        },
+        {
+            "source": 18,
+            "target": 22
+        },
+        {
+            "source": 18,
+            "target": 23
+        },
+        {
+            "source": 18,
+            "target": 24
+        },
+        {
+            "source": 18,
+            "target": 25
+        },
+        {
+            "source": 18,
+            "target": 26
+        },
+        {
+            "source": 18,
+            "target": 27
+        },
+        {
+            "source": 18,
+            "target": 28
+        },
+        {
+            "source": 0,
+            "target": 29
+        },
+        {
+            "source": 29,
+            "target": 30
+        },
+        {
+            "source": 29,
+            "target": 31
+        },
+        {
+            "source": 29,
+            "target": 32
+        },
+        {
+            "source": 29,
+            "target": 33
+        },
+        {
+            "source": 29,
+            "target": 34
+        },
+        {
+            "source": 29,
+            "target": 35
+        },
+        {
+            "source": 29,
+            "target": 36
+        },
+        {
+            "source": 29,
+            "target": 37
+        },
+        {
+            "source": 29,
+            "target": 38
+        },
+        {
+            "source": 29,
+            "target": 39
+        },
+        {
+            "source": 0,
+            "target": 40
+        },
+        {
+            "source": 40,
+            "target": 41
+        },
+        {
+            "source": 40,
+            "target": 42
+        },
+        {
+            "source": 40,
+            "target": 43
+        },
+        {
+            "source": 0,
+            "target": 44
+        },
+        {
+            "source": 44,
+            "target": 45
+        },
+        {
+            "source": 44,
+            "target": 46
+        },
+        {
+            "source": 44,
+            "target": 47
+        },
+        {
+            "source": 44,
+            "target": 48
+        },
+        {
+            "source": 44,
+            "target": 49
+        },
+        {
+            "source": 0,
+            "target": 50
+        },
+        {
+            "source": 50,
+            "target": 51
+        },
+        {
+            "source": 50,
+            "target": 52
+        },
+        {
+            "source": 50,
+            "target": 53
+        },
+        {
+            "source": 50,
+            "target": 54
+        },
+        {
+            "source": 50,
+            "target": 55
+        },
+        {
+            "source": 50,
+            "target": 56
+        },
+        {
+            "source": 50,
+            "target": 57
+        },
+        {
+            "source": 50,
+            "target": 58
+        },
+        {
+            "source": 0,
+            "target": 59
+        },
+        {
+            "source": 59,
+            "target": 60
+        },
+        {
+            "source": 59,
+            "target": 61
+        },
+        {
+            "source": 59,
+            "target": 62
+        },
+        {
+            "source": 59,
+            "target": 63
+        },
+        {
+            "source": 59,
+            "target": 64
+        },
+        {
+            "source": 0,
+            "target": 65
+        },
+        {
+            "source": 65,
+            "target": 66
+        },
+        {
+            "source": 65,
+            "target": 67
+        },
+        {
+            "source": 65,
+            "target": 68
+        },
+        {
+            "source": 65,
+            "target": 69
+        },
+        {
+            "source": 65,
+            "target": 70
+        },
+        {
+            "source": 65,
+            "target": 71
+        },
+        {
+            "source": 65,
+            "target": 72
+        },
+        {
+            "source": 65,
+            "target": 73
+        },
+        {
+            "source": 65,
+            "target": 74
+        },
+        {
+            "source": 65,
+            "target": 75
+        },
+        {
+            "source": 0,
+            "target": 76
+        },
+        {
+            "source": 76,
+            "target": 77
+        },
+        {
+            "source": 76,
+            "target": 78
+        },
+        {
+            "source": 76,
+            "target": 79
+        },
+        {
+            "source": 76,
+            "target": 80
+        },
+        {
+            "source": 76,
+            "target": 81
+        },
+        {
+            "source": 76,
+            "target": 82
+        },
+        {
+            "source": 76,
+            "target": 83
+        },
+        {
+            "source": 76,
+            "target": 84
+        },
+        {
+            "source": 0,
+            "target": 85
+        },
+        {
+            "source": 85,
+            "target": 86
+        },
+        {
+            "source": 85,
+            "target": 87
+        },
+        {
+            "source": 85,
+            "target": 88
+        },
+        {
+            "source": 0,
+            "target": 89
+        },
+        {
+            "source": 89,
+            "target": 90
+        },
+        {
+            "source": 89,
+            "target": 91
+        },
+        {
+            "source": 89,
+            "target": 92
+        },
+        {
+            "source": 89,
+            "target": 93
+        },
+        {
+            "source": 89,
+            "target": 94
+        },
+        {
+            "source": 0,
+            "target": 95
+        },
+        {
+            "source": 95,
+            "target": 96
+        },
+        {
+            "source": 95,
+            "target": 97
+        },
+        {
+            "source": 95,
+            "target": 98
+        },
+        {
+            "source": 95,
+            "target": 99
+        },
+        {
+            "source": 95,
+            "target": 100
+        },
+        {
+            "source": 95,
+            "target": 101
+        },
+        {
+            "source": 95,
+            "target": 102
+        },
+        {
+            "source": 95,
+            "target": 103
+        },
+        {
+            "source": 95,
+            "target": 104
+        },
+        {
+            "source": 0,
+            "target": 105
+        },
+        {
+            "source": 105,
+            "target": 106
+        },
+        {
+            "source": 105,
+            "target": 107
+        },
+        {
+            "source": 105,
+            "target": 108
+        },
+        {
+            "source": 105,
+            "target": 109
+        },
+        {
+            "source": 105,
+            "target": 110
+        },
+        {
+            "source": 105,
+            "target": 111
+        },
+        {
+            "source": 0,
+            "target": 112
+        },
+        {
+            "source": 112,
+            "target": 113
+        },
+        {
+            "source": 112,
+            "target": 114
+        },
+        {
+            "source": 0,
+            "target": 115
+        },
+        {
+            "source": 115,
+            "target": 116
+        },
+        {
+            "source": 115,
+            "target": 117
+        },
+        {
+            "source": 115,
+            "target": 118
+        },
+        {
+            "source": 115,
+            "target": 119
+        },
+        {
+            "source": 0,
+            "target": 120
+        },
+        {
+            "source": 0,
+            "target": 121
+        },
+        {
+            "source": 121,
+            "target": 122
+        },
+        {
+            "source": 121,
+            "target": 123
+        },
+        {
+            "source": 0,
+            "target": 124
+        }
+    ],
+    "nodes": [
+        {
+            "size": 150,
+            "color": "#DA6272",
+            "keyword": "統計学"
+        },
+        {
+            "size": 60,
+            "color": "#F3C759",
+            "keyword": "入門",
+            "number": 1
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 東京大学出版会",
+            "number": 2
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " (基礎i)",
+            "number": 3
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 東京大学出版会 解答",
+            "number": 4
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 解答",
+            "number": 5
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " pdf",
+            "number": 6
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 正誤表",
+            "number": 7
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 書籍",
+            "number": 8
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 東京大学出版会 練習問題",
+            "number": 9
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 早稲田",
+            "number": 10
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 小島",
+            "number": 11
+        },
+        {
+            "size": 60,
+            "color": "#C0D860",
+            "keyword": " 資格",
+            "number": 12
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "  本",
+            "number": 13
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "  海外",
+            "number": 14
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "  合格率",
+            "number": 15
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "  難易度",
+            "number": 16
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "  就職",
+            "number": 17
+        },
+        {
+            "size": 60,
+            "color": "#5EC84E",
+            "keyword": "が最強の学問である",
+            "number": 18
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 数学編",
+            "number": 19
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " ビジネス編",
+            "number": 20
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 実践編",
+            "number": 21
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " pdf",
+            "number": 22
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 要約",
+            "number": 23
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 感想",
+            "number": 24
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 中古",
+            "number": 25
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 楽天",
+            "number": 26
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 文庫",
+            "number": 27
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": " 内容",
+            "number": 28
+        },
+        {
+            "size": 60,
+            "color": "#3DB680",
+            "keyword": " 英語",
+            "number": 29
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  用語",
+            "number": 30
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  教科書",
+            "number": 31
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  発音",
+            "number": 32
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  例文",
+            "number": 33
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  読み方",
+            "number": 34
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  本",
+            "number": 35
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  単語",
+            "number": 36
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "分散  ",
+            "number": 37
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "母集団  ",
+            "number": 38
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "自由度  ",
+            "number": 39
+        },
+        {
+            "size": 60,
+            "color": "#40BFB0",
+            "keyword": " 本",
+            "number": 40
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  おすすめ",
+            "number": 41
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  ランキング",
+            "number": 42
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  入門",
+            "number": 43
+        },
+        {
+            "size": 60,
+            "color": "#42AAC7",
+            "keyword": " 基礎",
+            "number": 44
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  pdf",
+            "number": 45
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  本",
+            "number": 46
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  おすすめ",
+            "number": 47
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  練習問題",
+            "number": 48
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  excel",
+            "number": 49
+        },
+        {
+            "size": 60,
+            "color": "#44A5CB",
+            "keyword": " 数学",
+            "number": 50
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  本",
+            "number": 51
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  必要",
+            "number": 52
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  苦手",
+            "number": 53
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  違い",
+            "number": 54
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  参考書",
+            "number": 55
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  高校",
+            "number": 56
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  レベル",
+            "number": 57
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  入門",
+            "number": 58
+        },
+        {
+            "size": 60,
+            "color": "#6A8CC7",
+            "keyword": "会",
+            "number": 59
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": " 2018",
+            "number": 60
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": " 連合大",
+            "number": 61
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": " 中央大学",
+            "number": 62
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": " 費",
+            "number": 63
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": " セミナー",
+            "number": 64
+        },
+        {
+            "size": 60,
+            "color": "#8B90BE",
+            "keyword": " 大学",
+            "number": 65
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  社会人",
+            "number": 66
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  ランキング",
+            "number": 67
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  学部",
+            "number": 68
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  文系",
+            "number": 69
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  参考書",
+            "number": 70
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  内容",
+            "number": 71
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  難しい",
+            "number": 72
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  海外",
+            "number": 73
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  理系",
+            "number": 74
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  夜間",
+            "number": 75
+        },
+        {
+            "size": 60,
+            "color": "#CE579B",
+            "keyword": " 入門",
+            "number": 76
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  サイト",
+            "number": 77
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  おすすめ",
+            "number": 78
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  セミナー",
+            "number": 79
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  本",
+            "number": 80
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  文系",
+            "number": 81
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  pdf",
+            "number": 82
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  数学",
+            "number": 83
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  講座",
+            "number": 84
+        },
+        {
+            "size": 60,
+            "color": "#C35B9D",
+            "keyword": " マーケティング",
+            "number": 85
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  本",
+            "number": 86
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  資格",
+            "number": 87
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  セミナー",
+            "number": 88
+        },
+        {
+            "size": 60,
+            "color": "#F9DB57",
+            "keyword": " サンプル数",
+            "number": 89
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  算出",
+            "number": 90
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  計算",
+            "number": 91
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  信頼",
+            "number": 92
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  決め方",
+            "number": 93
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  精度",
+            "number": 94
+        },
+        {
+            "size": 60,
+            "color": "#FFEE55",
+            "keyword": " ビジネス",
+            "number": 95
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  本",
+            "number": 96
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  活用",
+            "number": 97
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  おすすめ",
+            "number": 98
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  応用",
+            "number": 99
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  書籍",
+            "number": 100
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  必要",
+            "number": 101
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  セミナー",
+            "number": 102
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": " 最強 ",
+            "number": 103
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": "  入門",
+            "number": 104
+        },
+        {
+            "size": 60,
+            "color": "#E4EC5B",
+            "keyword": " amazon",
+            "number": 105
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": "  ベストセラー",
+            "number": 106
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": " 入門 ",
+            "number": 107
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": " 本 ",
+            "number": 108
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": " ランキング アマゾン",
+            "number": 109
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": "  ランキング",
+            "number": 110
+        },
+        {
+            "size": 10,
+            "color": "#E4EC5B",
+            "keyword": "アマゾン 本 ",
+            "number": 111
+        },
+        {
+            "size": 60,
+            "color": "#45A1CF",
+            "keyword": " ai",
+            "number": 112
+        },
+        {
+            "size": 10,
+            "color": "#45A1CF",
+            "keyword": " i",
+            "number": 113
+        },
+        {
+            "size": 10,
+            "color": "#45A1CF",
+            "keyword": "  違い",
+            "number": 114
+        },
+        {
+            "size": 60,
+            "color": "#E6855E",
+            "keyword": " アンケート",
+            "number": 115
+        },
+        {
+            "size": 10,
+            "color": "#E6855E",
+            "keyword": "  人数",
+            "number": 116
+        },
+        {
+            "size": 10,
+            "color": "#E6855E",
+            "keyword": "  回収率",
+            "number": 117
+        },
+        {
+            "size": 10,
+            "color": "#E6855E",
+            "keyword": "  精度",
+            "number": 118
+        },
+        {
+            "size": 10,
+            "color": "#E6855E",
+            "keyword": "  分析",
+            "number": 119
+        },
+        {
+            "size": 60,
+            "color": "#D45D87",
+            "keyword": " 赤本",
+            "number": 120
+        },
+        {
+            "size": 60,
+            "color": "#9499C5",
+            "keyword": " アプリ",
+            "number": 121
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": "  iphone",
+            "number": 122
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": " 計算 ",
+            "number": 123
+        },
+        {
+            "size": 60,
+            "color": "#7F96CA",
+            "keyword": " アンケート 人数",
+            "number": 124
+        }
+    ],
+    "directed": "false",
+    "multigraph": "false"
+}

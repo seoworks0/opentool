@@ -1,0 +1,78 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/static/jsonfiles/s_graph.json"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+function getCookie(name) {
+  var cookieValue = null;
+  if (document.cookie && document.cookie !== '') {
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = jQuery.trim(cookies[i]);
+      // Does this cookie string begin with the name we want?
+      if (cookie.substring(0, name.length + 1) === (name + '=')) {
+        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+        break;
+      }
+    }
+  }
+  return cookieValue;
+}
+var csrftoken = getCookie('csrftoken');
+
+function csrfSafeMethod(method) {
+  // these HTTP methods do not require CSRF protection
+  return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+  beforeSend: function(xhr, settings) {
+    if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+      xhr.setRequestHeader("X-CSRFToken", csrftoken);
+    }
+  }
+});
+</script>
+
+<hr>
+<form id="postform" action="{% url 'suggestfunc' %}" method="POST">
+  <input type="text" id="title">
+  <button type="submit" >作成</button>
+</form>
+<hr>
+
+
+<script>
+$('#postform').submit(function() {
+  $.ajax({
+    'url':'{% url "suggestfunc" %}',
+    'type':'POST',
+    'data':{
+      'title':$('#title').val(),
+      'created_at':$('#created_at').val(),
+      'pk':$('#pk').val(),
+      'timekeeper':$('#timekeeper').val(),
+    },
+    'dataType':'json',
+    'success':function(data){
+      timer = setInterval(
+        function() {
+        row = data.timekeeper;
+        row2 = "aaaaaaaaaaaa";
+        $("#result").append(row2);
+        var script = document.createElement('script');
+        script.src = '/static/setting.js';
+        document.body.appendChild(script);
+      //setTimeout("location.reload()",1000*5);
+      if(row==1){
+        clearInterval(timer)
+      }
+    },3000);
+    },
+  });
+  return false;
+});
+</script>
+
+
+
+<div id="result">
+</div>

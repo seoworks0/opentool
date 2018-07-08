@@ -1,0 +1,24 @@
+{
+    "graph": [],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        }
+    ],
+    "nodes": [
+        {
+            "size": 150,
+            "color": "#DA6272",
+            "keyword": "高橋光太郎"
+        },
+        {
+            "size": 60,
+            "color": "#F3C759",
+            "keyword": " ピアノ",
+            "number": 1
+        }
+    ],
+    "directed": "false",
+    "multigraph": "false"
+}
