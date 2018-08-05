@@ -36,14 +36,18 @@ $.ajaxSetup({
 <div class="prc">
   <p>解析中です</p>
 </div>
-
-<hr>
-<form id="postform" action="{% url 'kyokifunc' %}" method="POST">
-  <input type="text" id="title" required>
-  <button type="submit">作成</button>
-</form>
-<hr>
-
+<div class="wrapper fwrapper">
+  <p>機能紹介機能紹介機能紹介機能紹介機能紹介機能紹介</p>
+</div>
+<div class="wrapper">
+  <div class="text-input">
+    <p>検索クエリを入力してください</p>
+    <form id="postform" action="{% url 'kyokifunc' %}" method="POST">
+      <input type="text" id="title" required>
+      <button type="submit">作成</button>
+    </form>
+  </div>
+</div>
 
 <script>
 $('#postform').submit(function() {
@@ -82,15 +86,16 @@ $('#postform').submit(function() {
         row6 = data.v_example;
         row7 = data.v_url;
         row8 = data.created_at;
-        row10 = toString.call(row2)
+        row10 = toString.call(row2);
         for(var i=0;i<n;i++){
-        $("#result_n").append("<tr><td>"+row2[i]+"</td><td>"+row3[i]+'</td><td><a href="'+row4[i]+'">こちら</a></td></tr>');
+        $("#result_n").append("<tr><td>"+row2[i]+"</td><td>32</td><td>"+row3[i]+'</td><td><a href="'+row4[i]+'">'+row4[i]+'</a></td></tr>');
         }
         for(var i=0;i<n;i++){
         $("#result_v").append("<tr><td>"+row5[i]+"</td><td>"+row6[i]+"</td><td>"+row7[i],"</td></tr>");
         }
         if(row2!=''){
           $("body").removeClass("changed");
+          $("body").addClass("done");
           clearInterval(timer)
         }
       }, 1000);
@@ -100,26 +105,16 @@ $('#postform').submit(function() {
 });
 </script>
 
-<style>
-#result_n,#result_v{
-  width: 100%;
-  height: auto;
-  overflow: auto;
-}
-#result_n td,#result_v td{
-  width: 33.3%;
-  box-sizing: border-box;
-  border-left:solid 1px black;
-}
-#result_n tr,#result_v tr{
-  box-sizing: border-box;
-  border-right:solid 1px black;
-  border-bottom: solid 1px black;
-}
-</style>
-
-<table id="result_n">
-</table>
-<table id="result_v">
-</table>
+<div class="wrapper dn">
+  <h2 style="margin-top:50px !important;">共起語(名詞)</h2>
+  <table class="kyo-m" id="result_n">
+    <tr><th class="kyom1">共起語</th><th class="kyom2">出現頻度</th><th class="kyom3">共起語の使われ方</th><th class="kyom4">該当URL</th></tr>
+  </table>
+</div>
+<div class="wrapper dn">
+  <h2>共起語(名詞)</h2>
+  <table class="kyo-m" id="result_v">
+    <tr><th class="kyom1">共起語</th><th class="kyom2">出現頻度</th><th class="kyom3">共起語の使われ方</th><th class="kyom4">該当URL</th></tr>
+  </table>
+</div>
 {% endblock %}
