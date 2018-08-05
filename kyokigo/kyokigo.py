@@ -4,7 +4,7 @@ from urllib.error import URLError
 import sys
 import MeCab
 from .normalize import normalize
-from .serps import g_serps
+from .serps import g_search_s
 from .stopwords1 import stopwords
 import codecs as cd
 import gensim
@@ -156,7 +156,7 @@ def kyokilist(dic,text):
 
 def kyoki(phrase):
     maxrank = 1
-    urls = g_serps(phrase,maxrank)
+    urls = g_search_s(phrase,maxrank)
     #urls = ['https://hagelabo.jp/articles/3041', 'https://customlife-media.jp/hairgrowth-marketsales']
     list3,list6,text = url2text(urls,phrase)
     dictionary_noun = make_dictionary(list3)

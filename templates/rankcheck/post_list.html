@@ -1,3 +1,5 @@
+{% extends "base/base.html" %}
+{% block header %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 function getCookie(name) {
@@ -30,17 +32,22 @@ $.ajaxSetup({
 });
 </script>
 
+<div class="prc">
+  <p>解析中です</p>
+</div>
+
 <hr>
 <form id="postform" action="{% url 'rankfunc' %}" method="POST">
-  <input type="text" id="title">
+  <input type="text" id="title" required>
   <input type="url" id="url">
-  <button type="submit" >作成</button>
+  <button type="submit">作成</button>
 </form>
 <hr>
 
 
 <script>
 $('#postform').submit(function() {
+  $("body").addClass("changed");
   var timer = null;
   $.ajax({
     'url':'{% url "rankfunc" %}',
@@ -63,6 +70,7 @@ $('#postform').submit(function() {
         row4 = data.created_at;
         $("#result").append(row,"|",row2,"|",row3,"|",row4);
         if(row2!=''){
+          $("body").removeClass("changed");
           clearInterval(timer)
         }
         },1000);
@@ -76,3 +84,4 @@ $('#postform').submit(function() {
 
 <div id="result">
 </div>
+{% endblock %}

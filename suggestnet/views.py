@@ -15,7 +15,7 @@ def suggestfunc(request):
         print(title)
         main(title)
         timekeeper = 1
-        post = Post(title=title,timekeeper=timekeeper)
+        post = Post(title=title, timekeeper=timekeeper)
         post.save()
         d = {
             'timekeeper': post.timekeeper,

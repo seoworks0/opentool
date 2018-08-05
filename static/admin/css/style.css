@@ -1,0 +1,16 @@
+body{
+  background-color:white;
+}
+.changed .prc{
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  display: block;
+  background-color: black;
+  opacity: 0.6;
+  top: 0;
+}
+.prc{
+  display: none;
+}

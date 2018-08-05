@@ -1,4 +1,5 @@
-
+{% extends "base/base.html" %}
+{% block header %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -31,17 +32,20 @@ $.ajaxSetup({
   }
 });
 </script>
-
+<div class="prc">
+  <p>解析中です</p>
+</div>
 <hr>
 <form id="postform" action="{% url 'suggestfunc' %}" method="POST">
-  <input type="text" id="title">
-  <button type="submit" >作成</button>
+  <input type="text" id="title" required>
+  <button type="submit">作成</button>
 </form>
 <hr>
 
 
 <script>
 $('#postform').submit(function() {
+  $("body").addClass("changed");
   $.ajax({
     'url':'{% url "suggestfunc" %}',
     'type':'POST',
@@ -63,6 +67,7 @@ $('#postform').submit(function() {
         document.body.appendChild(script);
       //setTimeout("location.reload()",1000*5);
       if(row==1){
+        $("body").removeClass("changed");
         clearInterval(timer)
       }
     },3000);
@@ -72,6 +77,7 @@ $('#postform').submit(function() {
 });
 </script>
 
-
 <div id="result">
 </div>
+
+{% endblock %}
