@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.views import generic
 from .models import Post
 from .juni import main
-#import time
+from .kyokigo import kyoki
 
 
 class PostList(generic.ListView):
@@ -19,7 +19,7 @@ def kyokifunc(request):
 
     # 新規作成
     if request.method == 'POST':
-        title = request.POST.get('title')
+        keyword = request.POST.get('title')
         kyokigo_v,kyokigo_n = kyoki(keyword)
         print(len(kyokigo_n[0]))
         #kyokigo_n=[['ああああ', 'おおおおお', 'https://www.youtube.com/watch?v=kzkSnSGBlEk'], ['保護', '終了いたしました。ご了承ください。, , , , 会社概要, 個人情報保護への取り組み', 'https://unkokanji.com/survey']]
@@ -37,7 +37,7 @@ def kyokifunc(request):
             v_url.append(i[2])
 
         #time.sleep(10)
-        post = Post(title=title,n_kyokiword=n_kyokiword,n_example=n_example,n_url=n_url,v_kyokiword=v_kyokiword,v_example=v_example,v_url=v_url)
+        post = Post(title=keyword,n_kyokiword=n_kyokiword,n_example=n_example,n_url=n_url,v_kyokiword=v_kyokiword,v_example=v_example,v_url=v_url)
         post.save()
         d = {
             'length':length,

@@ -63,6 +63,16 @@ RUN apt-get -y install
 RUN cd /opt/downloads/mecab-ipadic-neologd && \
     ./bin/install-mecab-ipadic-neologd -n -y
 
+RUN apt-get update && apt-get install -y wget
+
+RUN apt-get install unzip
+
+RUN wget https://chromedriver.storage.googleapis.com/2.40/chromedriver_linux64.zip \
+  && unzip chromedriver_linux64.zip \
+  && rm chromedriver_linux64.zip \
+  && chmod 755 chromedriver \
+  && sudo ln -fs chromedriver /usr/bin/chromedriver
+
 RUN pip install gensim mecab-python3
 RUN pip install Django
 RUN pip install nltk
@@ -70,6 +80,7 @@ RUN pip install bs4
 RUN pip install PyMySQL
 RUN pip install pandas
 RUN pip install retry
+RUN pip install selenium
 #RUN pip install -r requirements.txt
 
 WORKDIR /usr/src/app/

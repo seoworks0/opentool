@@ -2,7 +2,6 @@ from django.http import JsonResponse
 from django.views import generic
 from .models import Post
 from .suggest import main
-import time
 
 class PostList(generic.ListView):
     model = Post
@@ -14,7 +13,6 @@ def suggestfunc(request):
     if request.method == 'POST':
         title = request.POST.get('title')
         print(title)
-        #time.sleep(5)
         main(title)
         timekeeper = 1
         post = Post(title=title,timekeeper=timekeeper)
