@@ -1,11 +1,1352 @@
 {
     "graph": [],
-    "links": [],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 5
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 1,
+            "target": 8
+        },
+        {
+            "source": 1,
+            "target": 9
+        },
+        {
+            "source": 1,
+            "target": 10
+        },
+        {
+            "source": 1,
+            "target": 11
+        },
+        {
+            "source": 0,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 13
+        },
+        {
+            "source": 12,
+            "target": 14
+        },
+        {
+            "source": 12,
+            "target": 15
+        },
+        {
+            "source": 12,
+            "target": 16
+        },
+        {
+            "source": 12,
+            "target": 17
+        },
+        {
+            "source": 12,
+            "target": 18
+        },
+        {
+            "source": 12,
+            "target": 19
+        },
+        {
+            "source": 0,
+            "target": 20
+        },
+        {
+            "source": 20,
+            "target": 21
+        },
+        {
+            "source": 20,
+            "target": 22
+        },
+        {
+            "source": 20,
+            "target": 23
+        },
+        {
+            "source": 20,
+            "target": 24
+        },
+        {
+            "source": 20,
+            "target": 25
+        },
+        {
+            "source": 20,
+            "target": 26
+        },
+        {
+            "source": 20,
+            "target": 27
+        },
+        {
+            "source": 20,
+            "target": 28
+        },
+        {
+            "source": 20,
+            "target": 29
+        },
+        {
+            "source": 20,
+            "target": 30
+        },
+        {
+            "source": 0,
+            "target": 31
+        },
+        {
+            "source": 31,
+            "target": 32
+        },
+        {
+            "source": 31,
+            "target": 33
+        },
+        {
+            "source": 31,
+            "target": 34
+        },
+        {
+            "source": 31,
+            "target": 35
+        },
+        {
+            "source": 31,
+            "target": 36
+        },
+        {
+            "source": 31,
+            "target": 37
+        },
+        {
+            "source": 31,
+            "target": 38
+        },
+        {
+            "source": 31,
+            "target": 39
+        },
+        {
+            "source": 31,
+            "target": 40
+        },
+        {
+            "source": 31,
+            "target": 41
+        },
+        {
+            "source": 0,
+            "target": 42
+        },
+        {
+            "source": 42,
+            "target": 43
+        },
+        {
+            "source": 42,
+            "target": 44
+        },
+        {
+            "source": 42,
+            "target": 45
+        },
+        {
+            "source": 42,
+            "target": 46
+        },
+        {
+            "source": 42,
+            "target": 47
+        },
+        {
+            "source": 42,
+            "target": 48
+        },
+        {
+            "source": 42,
+            "target": 49
+        },
+        {
+            "source": 42,
+            "target": 50
+        },
+        {
+            "source": 42,
+            "target": 51
+        },
+        {
+            "source": 42,
+            "target": 52
+        },
+        {
+            "source": 0,
+            "target": 53
+        },
+        {
+            "source": 53,
+            "target": 54
+        },
+        {
+            "source": 53,
+            "target": 55
+        },
+        {
+            "source": 53,
+            "target": 56
+        },
+        {
+            "source": 53,
+            "target": 57
+        },
+        {
+            "source": 53,
+            "target": 58
+        },
+        {
+            "source": 53,
+            "target": 59
+        },
+        {
+            "source": 53,
+            "target": 60
+        },
+        {
+            "source": 53,
+            "target": 61
+        },
+        {
+            "source": 53,
+            "target": 62
+        },
+        {
+            "source": 0,
+            "target": 63
+        },
+        {
+            "source": 63,
+            "target": 64
+        },
+        {
+            "source": 63,
+            "target": 65
+        },
+        {
+            "source": 63,
+            "target": 66
+        },
+        {
+            "source": 63,
+            "target": 67
+        },
+        {
+            "source": 63,
+            "target": 68
+        },
+        {
+            "source": 63,
+            "target": 69
+        },
+        {
+            "source": 63,
+            "target": 70
+        },
+        {
+            "source": 63,
+            "target": 71
+        },
+        {
+            "source": 63,
+            "target": 72
+        },
+        {
+            "source": 63,
+            "target": 73
+        },
+        {
+            "source": 0,
+            "target": 74
+        },
+        {
+            "source": 74,
+            "target": 75
+        },
+        {
+            "source": 74,
+            "target": 76
+        },
+        {
+            "source": 74,
+            "target": 77
+        },
+        {
+            "source": 74,
+            "target": 78
+        },
+        {
+            "source": 74,
+            "target": 79
+        },
+        {
+            "source": 74,
+            "target": 80
+        },
+        {
+            "source": 74,
+            "target": 81
+        },
+        {
+            "source": 74,
+            "target": 82
+        },
+        {
+            "source": 74,
+            "target": 83
+        },
+        {
+            "source": 0,
+            "target": 84
+        },
+        {
+            "source": 84,
+            "target": 85
+        },
+        {
+            "source": 84,
+            "target": 86
+        },
+        {
+            "source": 84,
+            "target": 87
+        },
+        {
+            "source": 84,
+            "target": 88
+        },
+        {
+            "source": 84,
+            "target": 89
+        },
+        {
+            "source": 84,
+            "target": 90
+        },
+        {
+            "source": 84,
+            "target": 91
+        },
+        {
+            "source": 84,
+            "target": 92
+        },
+        {
+            "source": 84,
+            "target": 93
+        },
+        {
+            "source": 84,
+            "target": 94
+        },
+        {
+            "source": 0,
+            "target": 95
+        },
+        {
+            "source": 95,
+            "target": 96
+        },
+        {
+            "source": 95,
+            "target": 97
+        },
+        {
+            "source": 95,
+            "target": 98
+        },
+        {
+            "source": 95,
+            "target": 99
+        },
+        {
+            "source": 95,
+            "target": 100
+        },
+        {
+            "source": 95,
+            "target": 101
+        },
+        {
+            "source": 95,
+            "target": 102
+        },
+        {
+            "source": 95,
+            "target": 103
+        },
+        {
+            "source": 95,
+            "target": 104
+        },
+        {
+            "source": 95,
+            "target": 105
+        },
+        {
+            "source": 0,
+            "target": 106
+        },
+        {
+            "source": 106,
+            "target": 107
+        },
+        {
+            "source": 106,
+            "target": 108
+        },
+        {
+            "source": 106,
+            "target": 109
+        },
+        {
+            "source": 106,
+            "target": 110
+        },
+        {
+            "source": 106,
+            "target": 111
+        },
+        {
+            "source": 106,
+            "target": 112
+        },
+        {
+            "source": 106,
+            "target": 113
+        },
+        {
+            "source": 0,
+            "target": 114
+        },
+        {
+            "source": 114,
+            "target": 115
+        },
+        {
+            "source": 114,
+            "target": 116
+        },
+        {
+            "source": 114,
+            "target": 117
+        },
+        {
+            "source": 114,
+            "target": 118
+        },
+        {
+            "source": 114,
+            "target": 119
+        },
+        {
+            "source": 114,
+            "target": 120
+        },
+        {
+            "source": 0,
+            "target": 121
+        },
+        {
+            "source": 121,
+            "target": 122
+        },
+        {
+            "source": 0,
+            "target": 123
+        },
+        {
+            "source": 0,
+            "target": 124
+        },
+        {
+            "source": 124,
+            "target": 125
+        },
+        {
+            "source": 0,
+            "target": 126
+        },
+        {
+            "source": 126,
+            "target": 127
+        },
+        {
+            "source": 0,
+            "target": 128
+        },
+        {
+            "source": 0,
+            "target": 129
+        },
+        {
+            "source": 129,
+            "target": 130
+        },
+        {
+            "source": 129,
+            "target": 131
+        },
+        {
+            "source": 129,
+            "target": 132
+        },
+        {
+            "source": 129,
+            "target": 133
+        },
+        {
+            "source": 0,
+            "target": 134
+        }
+    ],
     "nodes": [
         {
             "size": 150,
             "color": "#DA6272",
-            "keyword": "大川遥平"
+            "keyword": "正規分布"
+        },
+        {
+            "size": 60,
+            "color": "#F3C759",
+            "keyword": "表",
+            "number": 1
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 見方",
+            "number": 2
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " エクセル",
+            "number": 3
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " pdf",
+            "number": 4
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 計算",
+            "number": 5
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 上側確率",
+            "number": 6
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 下側確率",
+            "number": 7
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 問題",
+            "number": 8
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 種類",
+            "number": 9
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " 0.025",
+            "number": 10
+        },
+        {
+            "size": 10,
+            "color": "#F3C759",
+            "keyword": " t分布 違い",
+            "number": 11
+        },
+        {
+            "size": 60,
+            "color": "#C0D860",
+            "keyword": "とは",
+            "number": 12
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": " 統計",
+            "number": 13
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": " 簡単",
+            "number": 14
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": " 標準偏差",
+            "number": 15
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": " 例",
+            "number": 16
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": " エクセル",
+            "number": 17
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "ヒストグラム ",
+            "number": 18
+        },
+        {
+            "size": 10,
+            "color": "#C0D860",
+            "keyword": "統計学 ",
+            "number": 19
+        },
+        {
+            "size": 60,
+            "color": "#5EC84E",
+            "keyword": " エクセル",
+            "number": 20
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  関数",
+            "number": 21
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  グラフ",
+            "number": 22
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  検定",
+            "number": 23
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  乱数",
+            "number": 24
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  標準偏差",
+            "number": 25
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  ヒストグラム",
+            "number": 26
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  確率",
+            "number": 27
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  縦軸",
+            "number": 28
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  確認",
+            "number": 29
+        },
+        {
+            "size": 10,
+            "color": "#5EC84E",
+            "keyword": "  σ",
+            "number": 30
+        },
+        {
+            "size": 60,
+            "color": "#3DB680",
+            "keyword": " 標準偏差",
+            "number": 31
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  確率",
+            "number": 32
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  求め方",
+            "number": 33
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  エクセル",
+            "number": 34
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  平均",
+            "number": 35
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  68",
+            "number": 36
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  σ",
+            "number": 37
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  割合",
+            "number": 38
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  分散",
+            "number": 39
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  表",
+            "number": 40
+        },
+        {
+            "size": 10,
+            "color": "#3DB680",
+            "keyword": "  信頼区間",
+            "number": 41
+        },
+        {
+            "size": 60,
+            "color": "#40BFB0",
+            "keyword": " 計算",
+            "number": 42
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  エクセル",
+            "number": 43
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  サイト",
+            "number": 44
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  例題",
+            "number": 45
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  確率",
+            "number": 46
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  プログラム",
+            "number": 47
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  excel",
+            "number": 48
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  簡単",
+            "number": 49
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  以上",
+            "number": 50
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  ツール",
+            "number": 51
+        },
+        {
+            "size": 10,
+            "color": "#40BFB0",
+            "keyword": "  表",
+            "number": 52
+        },
+        {
+            "size": 60,
+            "color": "#42AAC7",
+            "keyword": " 英語",
+            "number": 53
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": "  意味",
+            "number": 54
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 標準偏差 ",
+            "number": 55
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 数学 ",
+            "number": 56
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 補正 ",
+            "number": 57
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " に従う ",
+            "number": 58
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 反対 ",
+            "number": 59
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 形状 ",
+            "number": 60
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 説明 ",
+            "number": 61
+        },
+        {
+            "size": 10,
+            "color": "#42AAC7",
+            "keyword": " 確認 ",
+            "number": 62
+        },
+        {
+            "size": 60,
+            "color": "#44A5CB",
+            "keyword": " 確率密度関数",
+            "number": 63
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  導出",
+            "number": 64
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  積分",
+            "number": 65
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  グラフ",
+            "number": 66
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  エクセル",
+            "number": 67
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  計算",
+            "number": 68
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  python",
+            "number": 69
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  微分",
+            "number": 70
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  標準偏差",
+            "number": 71
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  覚え方",
+            "number": 72
+        },
+        {
+            "size": 10,
+            "color": "#44A5CB",
+            "keyword": "  証明",
+            "number": 73
+        },
+        {
+            "size": 60,
+            "color": "#6A8CC7",
+            "keyword": " 式",
+            "number": 74
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  導出",
+            "number": 75
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  意味",
+            "number": 76
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  エクセル",
+            "number": 77
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  覚え方",
+            "number": 78
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  証明",
+            "number": 79
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  標準偏差",
+            "number": 80
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  σ",
+            "number": 81
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  excel",
+            "number": 82
+        },
+        {
+            "size": 10,
+            "color": "#6A8CC7",
+            "keyword": "  確率",
+            "number": 83
+        },
+        {
+            "size": 60,
+            "color": "#8B90BE",
+            "keyword": " 検定",
+            "number": 84
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  エクセル",
+            "number": 85
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  方法",
+            "number": 86
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  r",
+            "number": 87
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  spss",
+            "number": 88
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  python",
+            "number": 89
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  excel",
+            "number": 90
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  jmp",
+            "number": 91
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  matlab",
+            "number": 92
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  prism",
+            "number": 93
+        },
+        {
+            "size": 10,
+            "color": "#8B90BE",
+            "keyword": "  p値",
+            "number": 94
+        },
+        {
+            "size": 60,
+            "color": "#CE579B",
+            "keyword": " σ",
+            "number": 95
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  確率",
+            "number": 96
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  範囲",
+            "number": 97
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  計算",
+            "number": 98
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  求め方",
+            "number": 99
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  確率 計算",
+            "number": 100
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  エクセル",
+            "number": 101
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  意味",
+            "number": 102
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  excel",
+            "number": 103
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  変曲点",
+            "number": 104
+        },
+        {
+            "size": 10,
+            "color": "#CE579B",
+            "keyword": "  パーセント",
+            "number": 105
+        },
+        {
+            "size": 60,
+            "color": "#C35B9D",
+            "keyword": " 標準化",
+            "number": 106
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  証明",
+            "number": 107
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  エクセル",
+            "number": 108
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  式",
+            "number": 109
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  なぜ",
+            "number": 110
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  マイナス",
+            "number": 111
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  例題",
+            "number": 112
+        },
+        {
+            "size": 10,
+            "color": "#C35B9D",
+            "keyword": "  確率",
+            "number": 113
+        },
+        {
+            "size": 60,
+            "color": "#F9DB57",
+            "keyword": " 期待値",
+            "number": 114
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  導出",
+            "number": 115
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  積分",
+            "number": 116
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  エクセル",
+            "number": 117
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  平均値",
+            "number": 118
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  関係",
+            "number": 119
+        },
+        {
+            "size": 10,
+            "color": "#F9DB57",
+            "keyword": "  分散 証明",
+            "number": 120
+        },
+        {
+            "size": 60,
+            "color": "#FFEE55",
+            "keyword": " ax+b",
+            "number": 121
+        },
+        {
+            "size": 10,
+            "color": "#FFEE55",
+            "keyword": " y=ax+b",
+            "number": 122
+        },
+        {
+            "size": 60,
+            "color": "#E4EC5B",
+            "keyword": " 表し方",
+            "number": 123
+        },
+        {
+            "size": 60,
+            "color": "#45A1CF",
+            "keyword": " アプリ",
+            "number": 124
+        },
+        {
+            "size": 10,
+            "color": "#45A1CF",
+            "keyword": " グラフ ",
+            "number": 125
+        },
+        {
+            "size": 60,
+            "color": "#E6855E",
+            "keyword": " アルゴリズム",
+            "number": 126
+        },
+        {
+            "size": 10,
+            "color": "#E6855E",
+            "keyword": "乱数  ",
+            "number": 127
+        },
+        {
+            "size": 60,
+            "color": "#D45D87",
+            "keyword": " 当てはまらない",
+            "number": 128
+        },
+        {
+            "size": 60,
+            "color": "#9499C5",
+            "keyword": " あてはめ",
+            "number": 129
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": " 当てはめ",
+            "number": 130
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": " 当てはめ excel",
+            "number": 131
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": "r  当てはめ",
+            "number": 132
+        },
+        {
+            "size": 10,
+            "color": "#9499C5",
+            "keyword": "エクセル  当てはめ",
+            "number": 133
+        },
+        {
+            "size": 60,
+            "color": "#7F96CA",
+            "keyword": " aic",
+            "number": 134
         }
     ],
     "directed": "false",

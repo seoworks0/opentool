@@ -1,5 +1,72 @@
 {% load i18n static %}<!DOCTYPE html>
-<p>ああ</p>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="KYTO(カイト)のホームページです。KYTO(カイト)では、人工知能の社会実装や自然言語処理ロジックを応用したSEOツールの開発などをおこなっております。また、小学生向けに人工知能の正しい知識を楽しく理解してもらうための講座も開講しております。">
+  <title>KYTO(カイト)のウェブツール</title>
+  <link rel="stylesheet" type="text/css" media="all" href="{% static "admin/css/style.css" %}">
+  <script src="js/jquery1.4.4.min.js"></script>
+  <script type="text/javascript" src="jquery.jaticker_1.0.0.js"></script>
+  <link rel="icon" href="images/logo.png" sizes="32x32" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header role="banner">
+    <div class="header" id="header">
+      <div class="logo">
+        <a href="index.html" title="KYTO(カイト)トップページ" rel="home"><img src="{% static "admin/images/logo.png" %}" alt=""  /></a>
+      </div>
+      <div class="hmenu">
+        <a href="">ツール制作の依頼</a>
+        <a href="https://ky-to.com/">運営会社</a>
+        <a href="" class="faq">お申し込み</a>
+      </div>
+    </div>
+    <nav id="mainNav">
+      <a class="menu" id="menu"><span>MENU</span></a>
+      <div class="wrapper">
+        <ul>
+          <li><a href="">SEOツール</a>
+            <ul class="submenu">
+            </ul>
+          </li>
+          <li><a href="#business">画像認識ツール</a></li>
+          <li><a href="#tool">SNS分析ツール</a></li>
+          <li><a href="#">有料ツール</a></li>
+          <li><a href="#">よくあるご質問</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 <link rel="stylesheet" type="text/css" href="{% static "admin/css/style.css" %}" />
 {% block header %}{% endblock %}
-<p>いい</p>
+<footer id="footer">
+  <div class="wrapper">
+    <div class="f-half">
+      <div class="f-logo">
+        <img src="{% static "admin/images/toolfooter.png" %}">
+      </div>
+    </div>
+    <div class="f-half">
+      <div class="f1">
+        <p><a href="#">順位チェック</a></p>
+        <p><a href="#">共起語</a></p>
+        <p><a href="#">キーワードサジェストネットワーク</a></p>
+        <p><a href="#">テキストマイニング</a></p>
+      </div>
+      <div class="f1">
+        <p><a href="#">顔検出</a></p>
+        <p><a href="#">画像認識</a></p>
+      </div>
+      <div class="f1">
+        <p><a href="#">VIP tool</a></p>
+        <p><a href="https://ky-to.com/">運営会社</a></p>
+      </div>
+    </div>
+  </div>
+  <p id="copyright">©️&nbsp;2018 KYTO All rights reserved.</</p>
+</footer>
+</body>
