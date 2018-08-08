@@ -32,10 +32,10 @@ services:
 
   chrome:
     image: selenium/node-chrome
-    container_name: 'chrome'
-    links:
-      - selenium-hub:hub
     ports:
-      - 5900:5900
-    volumes:
-      - /dev/shm:/dev/shm
+        - 9515:9515
+    environment:
+      - HUB_PORT_4444_TCP_ADDR=selenium-hub   # 各自の環境に合わせて書き換えること
+      - HUB_PORT_4444_TCP_PORT=4444  # 各自の環境に合わせて書き換えること
+    depends_on:
+      - selenium-hub

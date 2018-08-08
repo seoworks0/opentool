@@ -1,32 +1,11 @@
 {
     "graph": [],
-    "links": [
-        {
-            "source": 0,
-            "target": 1
-        },
-        {
-            "source": 0,
-            "target": 2
-        }
-    ],
+    "links": [],
     "nodes": [
         {
             "size": 150,
             "color": "#DA6272",
-            "keyword": "高橋光太郎"
-        },
-        {
-            "size": 60,
-            "color": "#F3C759",
-            "keyword": " 東京大学",
-            "number": 1
-        },
-        {
-            "size": 60,
-            "color": "#C0D860",
-            "keyword": " ピアノ",
-            "number": 2
+            "keyword": "大川遥平"
         }
     ],
     "directed": "false",

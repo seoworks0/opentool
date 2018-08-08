@@ -1,3 +1,5 @@
+#!/bin/sh
+import os
 from collections import namedtuple
 import time
 from selenium import webdriver
@@ -5,7 +7,13 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
+CHROME_BIN = "/usr/bin/google-chrome-stable"
+CHROME_DRIVER = os.path.expanduser('/usr/bin/chromedriver')
+
 options = Options()
+options.binary_location = CHROME_BIN
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument("--no-sandbox")
 
 # ヘッドレスモードを有効にする
 options.add_argument('--headless')
@@ -88,7 +96,8 @@ class GoogleScrapy:
     def start(self):
         """　ブラウザを立ち上げ、各種データの取得を開始する"""
         try:
-            self.driver = webdriver.Chrome(chrome_options=options,executable_path='kyokigo/chromedriver')
+            self.driver = webdriver.Chrome(CHROME_DRIVER, chrome_options=options)
+            # executable_path='/usr/src/app/rankcheck/chromedriver'
             self.driver.implicitly_wait(self.default_wait)
             self.enter_keyword()
             for page in range(self.end):

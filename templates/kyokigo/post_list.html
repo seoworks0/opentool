@@ -33,6 +33,13 @@ $.ajaxSetup({
 });
 </script>
 
+<script>
+function _delete_element(id_name){
+	const target = document.getElementById(id_name);
+  target.textContent = ''
+}
+</script>
+
 <div class="prc">
   <p>解析中です</p>
 </div>
@@ -40,7 +47,7 @@ $.ajaxSetup({
 <hr>
 <form id="postform" action="{% url 'kyokifunc' %}" method="POST">
   <input type="text" id="title" required>
-  <button type="submit">作成</button>
+  <button type="submit" onclick="_delete_element('result');">作成</button>
 </form>
 <hr>
 

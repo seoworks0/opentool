@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% load static %}
 {% block header %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -32,13 +33,20 @@ $.ajaxSetup({
   }
 });
 </script>
+
+<script>
+function clearChart() {
+ d3.selectAll("svg").remove();
+}
+</script>
+
 <div class="prc">
   <p>解析中です</p>
 </div>
 <hr>
 <form id="postform" action="{% url 'suggestfunc' %}" method="POST">
   <input type="text" id="title" required>
-  <button type="submit">作成</button>
+  <button type="submit" onclick="clearChart();">作成</button>
 </form>
 <hr>
 
@@ -61,13 +69,14 @@ $('#postform').submit(function() {
         function() {
         row = data.timekeeper;
         var script = document.createElement('script');
-        {% load static %}
+        //{% load static %}
+        //document.write(row);
+      if(row==1){
+        $("body").removeClass("changed");
         script.src="{{ STATIC_URL }}jsonfiles/s_graph.json";
         script.src = '{{ STATIC_URL }}setting.js';
         document.body.appendChild(script);
-      //setTimeout("location.reload()",1000*5);
-      if(row==1){
-        $("body").removeClass("changed");
+        row = data.timekeeper = 0
         clearInterval(timer)
       }
     },3000);
