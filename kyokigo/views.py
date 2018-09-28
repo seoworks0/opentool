@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.views import generic
 from .models import Post
 from .juni import main
-from .kyokigo import kyoki
+#from .kyokigo import kyoki
 
 
 class PostList(generic.ListView):
@@ -20,10 +20,10 @@ def kyokifunc(request):
     # 新規作成
     if request.method == 'POST':
         keyword = request.POST.get('title')
-        kyokigo_v,kyokigo_n = kyoki(keyword)
-        print(len(kyokigo_n[0]))
-        #kyokigo_n=[['ああああ', 'おおおおお', 'https://www.youtube.com/watch?v=kzkSnSGBlEk'], ['保護', '終了いたしました。ご了承ください。, , , , 会社概要, 個人情報保護への取り組み', 'https://unkokanji.com/survey']]
-        #kyokigo_v=[['いいいい', ', 1111, 111', 'https://www.youtube.com/watch?v=kzkSnSGBlEk'], ['22', '333', 'https://unkokanji.com/survey']]
+        #kyokigo_v,kyokigo_n = kyoki(keyword)
+        #print(len(kyokigo_n[0]))
+        kyokigo_n=[['ああああ', 'おおおおお', 'https://www.youtube.com/watch?v=kzkSnSGBlEk'], ['保護', '終了いたしました。ご了承ください。, , , , 会社概要, 個人情報保護への取り組み', 'https://unkokanji.com/survey']]
+        kyokigo_v=[['いいいい', ', 1111, 111', 'https://www.youtube.com/watch?v=kzkSnSGBlEk'], ['22', '333', 'https://unkokanji.com/survey']]
 
         length = len(kyokigo_n)
         for i in kyokigo_n:

@@ -35,7 +35,7 @@ $.ajaxSetup({
 
 <script>
 function _delete_element(id_name){
-	const target = document.getElementById(id_name);
+  const target = document.getElementById(id_name);
   target.textContent = ''
 }
 </script>
@@ -44,14 +44,22 @@ function _delete_element(id_name){
   <p>解析中です</p>
 </div>
 
-<hr>
-<form id="postform" action="{% url 'kyokifunc' %}" method="POST">
-  <input type="text" id="title" required>
-  <button type="submit" onclick="_delete_element('result');">作成</button>
-</form>
-<hr>
+<div class="wrapper form">
+  <!--<form id="postform" action="{% url 'kyokifunc' %}" method="POST">
+    <input type="text" id="title" required>
+    <button type="submit" onclick="_delete_element('result');">作成</button>
+  </form> -->
+<div style="background-color:white;padding:60px;margin-top:60px;">
+  <form id="postform" action="{% url 'kyokifunc' %}" method="POST">
+    <div class="form-group">
+      <label for="exampleInputPassword1">Please input search query!</label>
+      <input type="text" class="form-control" id="title" placeholder="Search Query" required>
+    </div>
+    <button type="submit" onclick="_delete_element('result');" class="btn btn-primary" style="float:right;">Submit</button>
+  </form>
+</div>
 
-
+</div>
 <script>
 $('#postform').submit(function() {
   $("body").addClass("changed");
@@ -74,37 +82,43 @@ $('#postform').submit(function() {
     'success':function(data){
       timer = setInterval(
         function() {
-        var array = ['a','b']
-        var n = data.length
-        var row9 = []
-        var toString = Object.prototype.toString
-        row = data.title;
-        for(var i=0;i<array.length;i++){
-        row9.push(array[i],'\n');
-        }
-        row2 = data.n_kyokiword;
-        row3 = data.n_example;
-        row4 = data.n_url;
-        row5 = data.v_kyokiword;
-        row6 = data.v_example;
-        row7 = data.v_url;
-        row8 = data.created_at;
-        row10 = toString.call(row2)
-        for(var i=0;i<n;i++){
-        $("#result_n").append("<tr><td>"+row2[i]+"</td><td>"+row3[i]+'</td><td><a href="'+row4[i]+'">こちら</a></td></tr>');
-        }
-        for(var i=0;i<n;i++){
-        $("#result_v").append("<tr><td>"+row5[i]+"</td><td>"+row6[i]+"</td><td>"+row7[i],"</td></tr>");
-        }
-        if(row2!=''){
-          $("body").removeClass("changed");
-          clearInterval(timer)
-        }
-      }, 1000);
-    },
+          var array = ['a','b']
+          var n = data.length
+          var row9 = []
+          var toString = Object.prototype.toString
+          row = data.title;
+          for(var i=0;i<array.length;i++){
+            row9.push(array[i],'\n');
+          }
+          row2 = data.n_kyokiword;
+          row3 = data.n_example;
+          row4 = data.n_url;
+          row5 = data.v_kyokiword;
+          row6 = data.v_example;
+          row7 = data.v_url;
+          row8 = data.created_at;
+          row10 = toString.call(row2);
+          for(var i=0;i<n;i++){
+            if(i == 0){
+              $("#result_n").append('<tr style="background-color:#e6e6e6;height:60px;"><th style="width:26.25%;">1</th><th style="width:13.75%";>2</th><th style="width:35%;">3</th><th style="width:30%;">4</th></tr>');
+            }
+            $("#result_n").append("<tr style='height:60px;'><td>"+row2[i]+"</td><td>23</td><td>"+row3[i]+'</td><td><a href="'+row4[i]+'">こちら</a></td></tr>');
+          }
+          for(var i=0;i<n;i++){
+            if(i == 0){
+              $("#result_v").append('<tr style="background-color:#e6e6e6;height:60px;"><th style="width:26.25%;">1</th><th style="width:13.75%";>2</th><th style="width:35%;">3</th><th style="width:30%;">4</th></tr>');
+            }
+            $("#result_v").append("<tr style='height:60px;'><td>"+row5[i]+"</td><td>23</td><td>"+row6[i]+"</td><td>"+row7[i],"</td></tr>");
+          }
+          if(row2!=''){
+            $("body").removeClass("changed");
+            clearInterval(timer)
+          }
+        }, 1000);
+      },
+    });
+    return false;
   });
-  return false;
-});
 </script>
 
 <style>
@@ -112,21 +126,20 @@ $('#postform').submit(function() {
   width: 100%;
   height: auto;
   overflow: auto;
-}
-#result_n td,#result_v td{
-  width: 33.3%;
-  box-sizing: border-box;
-  border-left:solid 1px black;
+  margin: 30px 0;
 }
 #result_n tr,#result_v tr{
   box-sizing: border-box;
+  height: 60px;
   border-right:solid 1px black;
   border-bottom: solid 1px black;
+  padding: 10px;
 }
 </style>
-
-<table id="result_n">
-</table>
-<table id="result_v">
-</table>
+<div class="wrapper">
+  <table id="result_n">
+  </table>
+  <table id="result_v">
+  </table>
+</div>
 {% endblock %}

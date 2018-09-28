@@ -73,6 +73,9 @@ a:active, a:focus {outline:0;}
 	width:98%;
 	position:relative;
 }
+.form{
+	margin: 30px 0;
+}
 
 .inner{
 	margin:0 auto;

@@ -33,10 +33,9 @@ def Morphological(text,phrase):
             if slice == "名詞":
                 word = normalize(word)
                 output_words.append(word)
-            if slice == "動詞":
-                verb = normalize(word)
+            elif slice == "動詞":
                 if len(verb)!= 1:
-                    output_verbs.append(verb)
+                    output_verbs.append(pos.split(",")[-3])
 
     for row in phrase1.split("\n"):
         word =row.split("\t")[0]
@@ -161,9 +160,8 @@ def kyoki(phrase):
     list3,list6,text = url2text(urls,phrase)
     dictionary_noun = make_dictionary(list3)
     dictionary_verb = make_dictionary(list6)
-    nounlist = kyokilist(dictionary_noun,text)
-    verblist = kyokilist(dictionary_verb,text)
-
+    #nounlist = kyokilist(dictionary_noun,text)
+    #verblist = kyokilist(dictionary_verb,text)
     #print(nounlist,verblist)
 
     return nounlist,verblist
