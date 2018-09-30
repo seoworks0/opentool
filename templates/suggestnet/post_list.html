@@ -75,7 +75,7 @@ $('#postform').submit(function() {
         $("body").removeClass("changed");
         script.src="{{ STATIC_URL }}jsonfiles/s_graph.json";
         script.src = '{{ STATIC_URL }}setting.js';
-        document.body.appendChild(script);
+        $(".graph").append("aaa");
         row = data.timekeeper = 0
         clearInterval(timer)
       }
@@ -86,7 +86,9 @@ $('#postform').submit(function() {
 });
 </script>
 
-<div id="result">
+<div class="wrapper">
+  <div class="graph">
+  </div>
 </div>
 
 {% endblock %}

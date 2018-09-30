@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.views import generic
 from .models import Post
 from .juni import main
-#from .kyokigo import kyoki
+from .kyokigo import kyoki
 
 
 class PostList(generic.ListView):

@@ -23,11 +23,16 @@ def g_search_s(phrase,myurl):
     return rank,r_url
 
 
-def main(phrase,myurl):
-    rank,r_url = g_search_s(phrase,myurl)
+def main(title_list,myurl):
+    rank_list , url_list = [] , []
+    for phrase in title_list:
+        print(phrase)
+        rank,r_url = g_search_s(phrase,myurl)
+        rank_list.append(rank)
+        url_list.append(r_url)
     #rank = "a"
     #r_url = "b"
-    return rank,r_url
+    return rank_list , url_list
 
 # phrase = "統計学"
 # myurl = "https://to-kei.net/"

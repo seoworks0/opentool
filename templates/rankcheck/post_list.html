@@ -42,14 +42,19 @@ function _delete_element(id_name){
   <p>解析中です</p>
 </div>
 
-<hr>
-<form id="postform" action="{% url 'rankfunc' %}" method="POST">
-  <input type="text" id="title" required>
-  <input type="url" id="url">
-  <button type="submit" onclick="_delete_element('result');">作成</button>
-</form>
-<hr>
-
+<div class="wrapper">
+<div style="background-color:white;padding:60px;margin-top:60px;">
+  <form id="postform" action="{% url 'rankfunc' %}" method="POST">
+    <div class="form-group" style="padding:10%;">
+      <label>Please input your Website domain!</label>
+      <input type="url" id="url" placeholder="your domain" style="width:100%;margin-bottom:20px;" required>
+      <label>Please input search query!</label>
+      <textarea cols="30" rows="10" id="title" placeholder="Search Query" style="width:100%;" required></textarea>
+    </div>
+    <button type="submit" onclick="_delete_element('result');" class="btn btn-primary" style="float:right;">Submit</button>
+  </form>
+</div>
+</div>
 
 <script>
 $('#postform').submit(function() {
@@ -71,10 +76,16 @@ $('#postform').submit(function() {
       timer = setInterval(
         function() {
         row = data.title;
+        var n = data.rank.length
         row2 = data.rank;
         row3 = data.r_url;
         row4 = data.created_at;
-        $("#result").append(row,"|",row2,"|",row3,"|",row4);
+        for(var i=0;i<n;i++){
+          if(i == 0){
+            $("#result").append("<tr style='background-color:#e6e6e6;height:60px;'><td style='width:33.3%'>kewword</td><td style='width:33.3%'>rank</td><td style='width:33.3%'>ranked_url</td></tr>");
+          }
+          $("#result").append("<tr><td>"+row[i]+"</td><td>"+row2[i]+"</td><td><a href='"+row3[i]+"' target='_blank'>"+row3[i]+"</a></td></tr>");
+        }
         if(row2!=''){
           $("body").removeClass("changed");
           clearInterval(timer)
@@ -87,7 +98,8 @@ $('#postform').submit(function() {
 </script>
 
 
-
-<div id="result">
+<div class="wrapper">
+  <table id="result" style="width:100%;margin-top:100px;">
+  </table>
 </div>
 {% endblock %}

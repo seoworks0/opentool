@@ -20,7 +20,7 @@ def Morphological(text,phrase):
     output_phrase = []
     output_verbs = []
     #MECABで名詞を取り出す
-    m = MeCab.Tagger ()
+    m = MeCab.Tagger ("/usr/local/lib/mecab/dic/mecab-ipadic-neologd")
     soup = m.parse (text)
     phrase1 = m.parse (phrase)
     for row in soup.split("\n"):
@@ -34,7 +34,7 @@ def Morphological(text,phrase):
                 word = normalize(word)
                 output_words.append(word)
             elif slice == "動詞":
-                if len(verb)!= 1:
+                if len(word)!= 1:
                     output_verbs.append(pos.split(",")[-3])
 
     for row in phrase1.split("\n"):
@@ -160,8 +160,8 @@ def kyoki(phrase):
     list3,list6,text = url2text(urls,phrase)
     dictionary_noun = make_dictionary(list3)
     dictionary_verb = make_dictionary(list6)
-    #nounlist = kyokilist(dictionary_noun,text)
-    #verblist = kyokilist(dictionary_verb,text)
-    #print(nounlist,verblist)
+    nounlist = kyokilist(dictionary_noun,text)
+    verblist = kyokilist(dictionary_verb,text)
+    print(nounlist,verblist)
 
     return nounlist,verblist
